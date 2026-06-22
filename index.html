@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BlogSphere</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>BlogSphere</h2>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Login</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+<h1>Share Your Ideas With The World</h1>
+
+<p>Create blogs and interact through comments.</p>
+
+</section>
+
+<section class="create-post">
+
+<h2>Create Blog Post</h2>
+
+<input type="text" id="title" placeholder="Blog Title">
+
+<textarea
+id="content"
+placeholder="Write your blog here..."
+></textarea>
+
+<button onclick="addPost()">
+Publish Post
+</button>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Latest Posts</h2>
+
+<div id="blogContainer"></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
